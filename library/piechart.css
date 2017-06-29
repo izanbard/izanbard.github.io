@@ -3,3 +3,9 @@
     height: 566px;
     width: 800px;
 }
+img[usemap] {
+    border: none;
+    height: auto;
+    max-width: 100%;
+    width: auto;
+}
