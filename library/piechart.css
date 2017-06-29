@@ -1,3 +1,5 @@
-#gonogo {
-    display:hidden;
+#gonogo #assess #decide #deliver #demob #event #full #gather #mainbody #recce #review #scan #standup {
+    display: none;
+    height: 566px;
+    width: 800px;
 }

@@ -5,26 +5,28 @@
             src="https://code.jquery.com/jquery-3.2.1.js"
             integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
             crossorigin="anonymous"></script>
+    <script src="library/Plugins/rwdImageMaps/jquery.rwdImageMaps.min.js"></script>
     <script src="library/piechart.js"></script>
     <link rel="stylesheet" href="library/piechart.css">
 </head>
 <body>
 <div id="img container">
-    <img id="main" src="pictures/Full%20Circle.jpg" width="4961" height="3508" border="0" usemap="#full"/>
-    <img id="gonogo" src="pictures/Go%20No%20Go.jpg" width="4961" height="3508" border="0" usemap="#full"/>
-    <img id="standup" src="pictures/Stand%20Up.jpg" width="4961" height="3508" border="0" usemap="#full"/>
-    <img id="recce" src="pictures/Mobilise%20Recce.jpg" width="4961" height="3508" border="0" usemap="#full"/>
-    <img id="assess" src="pictures/Assess.jpg" width="4961" height="3508" border="0" usemap="#full"/>
-    <img id="decide" src="pictures/Decide.jpg" width="4961" height="3508" border="0" usemap="#full"/>
-    <img id="mainbody" src="pictures/Mobilise%20Main%20Body.jpg" width="4961" height="3508" border="0" usemap="#full"/>
-    <img id="deliver" src="pictures/Deliver.jpg" width="4961" height="3508" border="0" usemap="#full"/>
-    <img id="demob" src="pictures/Demobilise.jpg" width="4961" height="3508" border="0" usemap="#full"/>
-    <img id="review" src="pictures/Review.jpg" width="4961" height="3508" border="0" usemap="#full"/>
-    <img id="scan" src="pictures/Scan.jpg" width="4961" height="3508" border="0" usemap="#full"/>
-    <img id="event" src="pictures/Event.jpg" width="4961" height="3508" border="0" usemap="#full"/>
-    <img id="gather" src="pictures/Gather.jpg" width="4961" height="3508" border="0" usemap="#full"/>
+    <img id="main" src="pictures/Full%20Circle%20Faded.jpg" width="4961" height="3508" border="0" usemap="#full_map"/>
+    <img id="full" src="pictures/Full%20Circle.jpg" width="4961" height="3508" border="0" usemap="#full_map"/>
+    <img id="gonogo" src="pictures/Go%20No%20Go.jpg" width="4961" height="3508" border="0" usemap="#full_map"/>
+    <img id="standup" src="pictures/Stand%20Up.jpg" width="4961" height="3508" border="0" usemap="#full_map"/>
+    <img id="recce" src="pictures/Mobilise%20Recce.jpg" width="4961" height="3508" border="0" usemap="#full_map"/>
+    <img id="assess" src="pictures/Assess.jpg" width="4961" height="3508" border="0" usemap="#full_map"/>
+    <img id="decide" src="pictures/Decide.jpg" width="4961" height="3508" border="0" usemap="#full_map"/>
+    <img id="mainbody" src="pictures/Mobilise%20Main%20Body.jpg" width="4961" height="3508" border="0" usemap="#full_map"/>
+    <img id="deliver" src="pictures/Deliver.jpg" width="4961" height="3508" border="0" usemap="#full_map"/>
+    <img id="demob" src="pictures/Demobilise.jpg" width="4961" height="3508" border="0" usemap="#full_map"/>
+    <img id="review" src="pictures/Review.jpg" width="4961" height="3508" border="0" usemap="#full_map"/>
+    <img id="scan" src="pictures/Scan.jpg" width="4961" height="3508" border="0" usemap="#full_map"/>
+    <img id="event" src="pictures/Event.jpg" width="4961" height="3508" border="0" usemap="#full_map"/>
+    <img id="gather" src="pictures/Gather.jpg" width="4961" height="3508" border="0" usemap="#full_map"/>
 
-    <map name="full">
+    <map name="full_map">
         <area class="gonogo" shape="poly" coords="2483,678,3019,822,2615,1523,2483,1490,2484,1488" nohref="nohref"/>
         <area class="standup" shape="poly" coords="3020,821,3415,1215,2714,1619,2617,1522" nohref="nohref"/>
         <area class="recce" shape="poly" coords="3416,1214,3558,1753,2749,1756,2717,1619" nohref="nohref"/>
@@ -38,23 +40,6 @@
         <area class="event" shape="poly" coords="1546,1216,1943,821,2348,1524,2250,1618" nohref="nohref"/>
         <area class="gather" shape="poly" coords="1943,822,2483,679,2484,1491,2349,1522" nohref="nohref"/>
         <area class="main" shape="circle" coords="2490,1755,267" nohref="nohref"/>
-    </map>
-
-
-    <map name="part">
-        <area class="gonogo" shape="poly" coords="842,467,842,79,1101,148,907,484" nohref="nohref"/>
-        <area class="standup" shape="poly" coords="1099,149,1289,337,953,529,909,485" nohref="nohref"/>
-        <area class="recce" shape="poly" coords="953,529,1287,340,1359,595,972,594" nohref="nohref"/>
-        <area class="assess" shape="poly" coords="972,594,1361,598,1291,854,952,659" nohref="nohref"/>
-        <area class="decide" shape="poly" coords="954,661,1293,855,1102,1044,907,708" nohref="nohref"/>
-        <area class="mainbody" shape="poly" coords="907,707,1104,1045,842,1113,842,723" nohref="nohref"/>
-        <area class="deliver" shape="poly" coords="843,723,841,1115,582,1044,776,708" nohref="nohref"/>
-        <area class="demob" shape="poly" coords="773,709,585,1045,392,855,730,661" nohref="nohref"/>
-        <area class="review" shape="poly" coords="713,596,730,662,388,854,323,596" nohref="nohref"/>
-        <area class="scan" shape="poly" coords="714,595,323,596,393,338,729,532" nohref="nohref"/>
-        <area class="event" shape="poly" coords="730,532,394,336,580,148,775,484" nohref="nohref"/>
-        <area class="gather" shape="poly" coords="583,148,841,79,841,468,774,484" nohref="nohref"/>
-        <area class="main" shape="circle" coords="843,593,129" nohref="nohref"/>
     </map>
 
 </div>
