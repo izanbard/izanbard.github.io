@@ -1,0 +1,22 @@
+<img src="[Full Circle Faded] (imported)" width="1684" height="1191" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.3 -->
+<!-- #$AUTHOR:gordon  -->
+<area class="gonogo" shape="poly" coords="2483,678,3019,822,2615,1523,2483,1490,2484,1488"              nohref="nohref"/>
+        <area class="standup" shape="poly" coords="3020,821,3415,1215,2714,1619,2617,1522" nohref="nohref"/>
+        <area class="recce" shape="poly" coords="3416,1214,3558,1753,2749,1756,2717,1619" nohref="nohref"/>
+        <area class="assess" shape="poly" coords="3559,1754,3416,2291,2716,1885,2751,1757,2755,1757"              nohref="nohref"/>
+        <area class="decide" shape="poly" coords="3416,2292,3023,2689,2617,1985,2717,1887" nohref="nohref"/>
+        <area class="mainbody" shape="poly" coords="2617,1985,2482,2021,2482,2833,3025,2692"              nohref="nohref"/>
+        <area class="deliver" shape="poly" coords="2482,2834,1944,2691,2348,1986,2482,2021"              nohref="nohref"/>
+        <area class="demob" shape="poly" coords="1944,2692,1547,2295,2251,1890,2346,1986" nohref="nohref"/>
+        <area class="review" shape="poly" coords="1547,2295,1402,1754,2212,1755,2250,1891" nohref="nohref"/>
+        <area class="scan" shape="poly" coords="1401,1754,1546,1216,2250,1618,2212,1754" nohref="nohref"/>
+        <area class="event" shape="poly" coords="1546,1216,1943,821,2348,1524,2250,1618" nohref="nohref"/>
+        <area class="gather" shape="poly" coords="1943,822,2483,679,2484,1491,2349,1522" nohref="nohref"/>
+        <area class="main" shape="circle" coords="2490,1755,267" nohref="nohref"/>
+</map>
