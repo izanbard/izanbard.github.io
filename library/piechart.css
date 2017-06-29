@@ -1,11 +1,15 @@
-#gonogo #assess #decide #deliver #demob #event #full #gather #mainbody #recce #review #scan #standup {
+#gonogo, #assess, #decide, #deliver, #demob, #event, #full, #gather, #mainbody, #recce, #review, #scan, #standup, #main {
     display: none;
-    height: 566px;
-    width: 800px;
+    height: 849px;
+    width: 1200px;
 }
 img[usemap] {
     border: none;
     height: auto;
     max-width: 100%;
     width: auto;
+}
+#container {
+    width: 1200px;
+    margin: 0 auto;
 }

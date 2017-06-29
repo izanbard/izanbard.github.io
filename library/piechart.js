@@ -5,7 +5,7 @@ var showHide = function(element) {
 
 $(document).ready(function () {
     $('img[usemap]').rwdImageMaps();
-
+    $('#main').show();
     $('area').mouseenter(function(){
         element = $(this).attr('class');
         showHide(element);
